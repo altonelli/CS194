@@ -1,0 +1,1 @@
+function F = pyramid(T,B);[y1,x1,z1] = size(T);if (y1 < 128)x_offset = 0;y_offset = 0;for i = 20for j = 20C = normxcorr2(T(:,:,1),B(:,:,1));endendfor i = 10endelseT_small = imresize(T,0.5);B_small = imresize(B,0.5);pyramid(T_small,B_small);endend
